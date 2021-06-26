@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Queries feed 1`] = `
+Object {
+  "data": null,
+  "errors": Array [
+    [GraphQLError: Cast to ObjectId failed for value "{
+  id: '60d6c18d2dc62607ac8a0648',
+  name: 'Shanjai',
+  email: 'shanjai@gmail.com',
+  password: null,
+  invited: false,
+  role: 'MEMBER'
+}" (type Object) at path "_id" for model "User"],
+  ],
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`Queries me 1`] = `
+Object {
+  "data": Object {
+    "me": Object {
+      "email": "shanjai@gmail.com",
+      "id": "60d6c18d2dc62607ac8a0648",
+    },
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;

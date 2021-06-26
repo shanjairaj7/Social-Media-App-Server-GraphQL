@@ -1,0 +1,26 @@
+{
+  "name": "graphql-advanced",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "apollo-server-testing": "^2.25.2",
+    "bcrypt": "^5.0.1",
+    "date-fns": "^2.22.1",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.5.1",
+    "jest": "^27.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "nodemon": "^2.0.7",
+    "yup": "^0.32.9"
+  }
+}
