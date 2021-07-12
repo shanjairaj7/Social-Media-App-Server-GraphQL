@@ -12,4 +12,5 @@ This app has all the basic functionalities to create a social media app, but any
 
 ## Follow me online 👋
 [Twitter](https://twitter.com/shanjai_raj)
+
 [LinkedIn](https://www.linkedin.com/in/shanjai-raj-290b631bb/)
